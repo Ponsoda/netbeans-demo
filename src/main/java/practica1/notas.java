@@ -39,7 +39,7 @@ public class notas {
 	/**
          * Función para comprobar si las notas han sido introducidas correctamente.
          */
-	public void comprobarcionNotas(){
+	public void ComprobarcionNotas(){
 		if (uf1>10) {
 			System.out.println(" nota1 mal introducida");	
 		}else {
@@ -105,7 +105,7 @@ public class notas {
 		// creamos mecanimos para llamar a cualquier metodo fuero de la clase
 		notas fc = new notas();
 		fc.IngresaNotas();
-		fc.comprobarcionNotas();
+		fc.ComprobarcionNotas();
 		fc.CalculoNotas();
 		fc.Mostrar();
 		fc.Aprobado();
